@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.String.Equals;
 
 public class TouchArrow : MonoBehaviour {
 	public static bool touched = false;
@@ -17,7 +16,8 @@ public class TouchArrow : MonoBehaviour {
 
 	void OnCollisionEnter (Collision other) 
     {
-		if(String.Equals(other.gameObject.name, "Arrow") == true){
+	    //if(String.Equals(other.gameObject.name, "Arrow") == true){
+        if (other.gameObject.name.Equals("Arrow")) {
 			touched = true;
 		}
 
