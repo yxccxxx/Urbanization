@@ -1,10 +1,10 @@
 # Urbanization
 A VR interactable Gallery based on Oculus Rift. Using Unity 2018.1.6f1, VRTK Version 3.3.0, Oculus Integration Kit (with Oculus Avatar), models from Assets Store and Sketchfab, models made by Google Blocks and C# scripts.
 
-# Preview
+<!--# Preview
 <p align="center">
   <img src="ProjectPreview.png">
-</p>
+</p>-->
 
 # Conceptual Ideas
 This project gives people a new way to interpret urbanization through Virtual Reality. In real life, it is hard to imagine the authentic process of urbanization. Cities are large, factories are large, and country areas are large as well. We can hardly get out from one to another in a real scene, giving us little imagination spaces for urbanization. However, VR provides people a new way to understand the space. Compacting example scenes together, people are free to travel between farms, industrial places and urban areas in a very short distance. By triggering the "magic door," people can get into another place, having a brand new experience. 
