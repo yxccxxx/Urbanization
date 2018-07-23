@@ -11,4 +11,4 @@ This project gives people a new way to interpret urbanization through Virtual Re
 
 Also, it is not just a gallery. The senses of reality in VR cannot be ignored. When people enter the scene, there are sounds around. People can interactive with different game objects like they do in real life, and they can see their hands doing things inside the scene as well.
 
-This project makes use of the concept of Game Theory. Since Oculus Rift only has controllers and headsets, it cannot detect the minor movements of body and cannot simulate the entire user body in the game scene. Also, the models cannot put into actual use. Most of them is for visual use only, showing the trade-off for Virtual Reality.
+This project makes use of the concept of Game Theory. Since Oculus Rift only has controllers and headsets, it cannot detect the minor movements of body and cannot simulate entire body of the user. Also, the models cannot put into actual use. Most of them is for visual use only. These deficiencies show the trade-off of Virtual Reality.
