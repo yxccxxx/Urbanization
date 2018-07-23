@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TouchArrow : MonoBehaviour {
 	public static bool touched = false;
+    public GameObject box;
 	// Use this for initialization
 	void Start () {
 		
@@ -16,15 +17,21 @@ public class TouchArrow : MonoBehaviour {
 
 	void OnCollisionEnter (Collision other) 
     {
-	    //if(String.Equals(other.gameObject.name, "Arrow") == true){
-        if (other.gameObject.name.Equals("Arrow")) {
+        if (other.gameObject.name.Equals(box.name)) {
 			touched = true;
-		}
+            Debug.Log("touched!!!!!!!!!!!!!!!!!!!!=============================");
+        }
 
     }
 
 	void onCollisionExit (Collision other)
 	{
-		touched = false;
+        Debug.Log("No longer touching");
+        if (other.gameObject.name.Equals(box.name))
+        {
+            Debug.Log("turn to false");
+            touched = false;
+        }
 	}
+
 }

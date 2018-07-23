@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class ArrowPressure : MonoBehaviour {
 	public GameObject door;
-	//private TouchArrow arrow = GetComponent<TouchArrow>();
-	bool touched = TouchArrow.touched;
+
 	// Update is called once per frame
 	void Update () {
+        bool touched = TouchArrow.touched;
+      //  Debug.Log("touch value is =="+touched);
 		if(touched){
 			disappear();
 		}else{
@@ -16,10 +17,13 @@ public class ArrowPressure : MonoBehaviour {
 	}
 
 	void disappear(){
-		door.SetActive(false);
+      //  Debug.Log("Should turn to false???");
+		//door.SetActive(false);
+        GetComponent<Renderer>().enabled = false;
 	}
 
 	void appear(){
-		door.SetActive(true);
-	}
+        //door.SetActive(true);
+        GetComponent<Renderer>().enabled = true;
+    }
 }
