@@ -6,7 +6,7 @@ public class CityAppear : MonoBehaviour {
 	public GameObject door;
 	// Use this for initialization
 	void Start () {
-		door.SetActive(false);
+		door.SetActive(true);
 
 	}
 
