@@ -1,6 +1,8 @@
 # Urbanization
 A VR interactable Gallery based on Oculus Rift. Using Unity 2018.1.6f1, VRTK Version 3.3.0, Oculus Integration Kit (with Oculus Avatar), models from Assets Store and Sketchfab, models made by Google Blocks and C# scripts.
 
+Video Demo: https://youtu.be/hCVKMsgoxR0
+
 <!--# Preview
 <p align="center">
   <img src="ProjectPreview.png">
